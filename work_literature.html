@@ -1,0 +1,126 @@
+<DOCTYPE html>
+        <html>
+            <header>
+                <title>Work_literature page</title>
+                <link rel="stylesheet" type="text/css" href="style.css">
+            </header>
+            <body>
+                <div class="header">
+                    <table>
+                        <tr>
+                            <th id="logo"><img id="logo" src="images/cropped-bioehs_modernlogo_blue1.png" alt=""></th>
+                            <th><h1>BioEHSC PHS - Work (literature)</h1></th>
+                        </tr>
+                    </table>
+                    
+                </div>
+                <div class="navigation">
+                    <a href="home.html" target="_self">Home</a>
+                    <a href="about.html" target="_self">About</a>
+                    <a href="resources.html" target="_self">Resources</a>
+                    <a href="portfolio_video.html" target="_self">Portfolio (video)</a>
+                    <a href="work_literature.html" target="_self">Work (literature)</a>
+                    <a href="timeline.html" target="_self">Timeline</a>
+                    <a href="other.html" target="_self">Other</a>
+                </div>
+                <div class="content">
+                    <h2>Where to look for literature (Scientific Literature Journals):</h2>
+                    <table class="literatureList" align="center"> 
+                        <tr>
+                            <td><a href="http://www.pnas.org/" target="_blank"><img src="images/PNAS.jpg"></a></td>                  
+                            <td><a href="https://www.nature.com/" target="_blank"><img src="images/Nature.png"></a></td>     
+                            <td><a href="https://www.scientificamerican.com/" target="_blank"><img src="images/Scientific_American.jpg"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.ncbi.nlm.nih.gov/" target="_blank"><img src="images/NCBI.jpg"></a></td>            
+                            <td><a href="https://www.sciencemag.org/" target="_blank"><img src="images/Science.png"></a></td>    
+                            <td><a href="https://scholar.google.com/" target="_blank"><img src="images/Google_Scholars.png"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.cell.com/" target="_blank"><img src="images/Cell.jpg"></a></td>                  
+                            <td><a href="https://academic.oup.com/bioscience" target="_blank"><img src="images/Bioscience.png"></a></td> 
+                            <td><a href="https://www.nature.com/srep/" target="_blank"><img src="images/Scientific_Reports.jpg"></a></td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="side">
+                        <h3>
+                            Tip: <br> <hr>
+                            Use Google Docs to communicate and version control between group members. Have one person 
+                            control the version of the current document.
+                        </h3>
+                </div>
+                <div class="footer">
+                        <table id="footer_table">
+                            <tr>
+                                <td>
+                                    <p id="footer_term_use">
+                                        <b>Term Use: </b> Please use the website and its information however you like to help you
+                                        with the competition. I do ask, however, that you do not use the images or videos here
+                                        for any other project/product. Also, to make sure information is a 100% accurate and up to
+                                        date, users should always check the UC Berkeley BioEHSC official website page. 
+                                    </p>
+                                </td>
+                                <td>
+                                    <p id="footer_social_media">
+                                        <b>Social Media:</b> <br>
+                                        Coming Soon!
+                                    </p>
+                                </td>
+                                <td>
+                                    <p id="footer_mission_statement">
+                                        <b>Mission statement:</b> <br>
+                                        Coming Soon!
+                                    </p>
+                                </td>
+                                <td>
+                                    <p id="footer_visitation_stats">
+                                        <b>Visitation stats:</b> <br>
+                                        Coming soon!
+                                    </p>
+                                </td>
+                                <td>
+                                    <p id="footer_countdown">
+                                        <b>Countdown:</b> <br>
+                                        Feb. 19, 2019
+                                        <p id="demo"></p>
+                                        <script>
+                                        // Set the date we're counting down to
+                                        var countDownDate = new Date("Feb 19, 2019 15:37:25").getTime();
+        
+                                        // Update the count down every 1 second
+                                        var x = setInterval(function() {
+        
+                                            // Get todays date and time
+                                            var now = new Date().getTime();
+                                            
+                                            // Find the distance between now and the count down date
+                                            var distance = countDownDate - now;
+                                            
+                                            // Time calculations for days, hours, minutes and seconds
+                                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                                            
+                                            // Output the result in an element with id="demo"
+                                            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                                            + minutes + "m " + seconds + "s ";
+                                            
+                                            // If the count down is over, write some text 
+                                            if (distance < 0) {
+                                                clearInterval(x);
+                                                document.getElementById("demo").innerHTML = "EXPIRED";
+                                            }
+                                        }, 1000);
+                                        </script>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                
+            </body>
+        </html>
+    </DOCTYPE>

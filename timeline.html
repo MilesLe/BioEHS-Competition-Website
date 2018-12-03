@@ -1,0 +1,136 @@
+<DOCTYPE html>
+        <html>
+            <header>
+                <title>Timeline page</title>
+                <link rel="stylesheet" type="text/css" href="style.css">
+            </header>
+            <body>
+                <div class="header">
+                    <table>
+                        <tr>
+                            <th id="logo"><img id="logo" src="images/cropped-bioehs_modernlogo_blue1.png" alt=""></th>
+                            <th><h1>BioEHSC PHS - Timeline</h1></th>
+                        </tr>
+                    </table>
+                    
+                </div>
+                <div class="navigation">
+                    <a href="home.html" target="_self">Home</a>
+                    <a href="about.html" target="_self">About</a>
+                    <a href="resources.html" target="_self">Resources</a>
+                    <a href="portfolio_video.html" target="_self">Portfolio (video)</a>
+                    <a href="work_literature.html" target="_self">Work (literature)</a>
+                    <a href="timeline.html" target="_self">Timeline</a>
+                    <a href="other.html" target="_self">Other</a>
+                </div>
+                <div class="content">
+                    <h4>
+                        - Submit weekley check-in forms through this <a href="https://docs.google.com/document/d/1OhZm34D5DUPXlk2CnnXqYgrJzPYh6oJniUn-5yRDXzU/edit">link</a> every Sunday. <br>
+                        - Teams are not limited to this timeline except students must submit required work on time or ask for an extension. <br>
+
+                        <table id="timeline">
+                            <tr>
+                                <td>Before Week 1</td> <td>before 2/23/19</td> <td>TBD</td>
+                            </tr>
+                            <tr>
+                                <td>Week 1</td> <td>2/19/19 - 2/23/19</td> <td>TBD</td>
+                            </tr>
+                            <tr>
+                                <td>Week 2</td> <td>2/26/19 - 3/2/19</td><td>TBD</td>
+                            </tr>
+                            <tr>
+                                <td>Week 3-4</td> <td>3/5/19 - 3/16/19</td><td>TBD</td>
+                            </tr>
+                            <tr>
+                                <td>Week 5</td> <td>3/19/19 - 3/23/19</td><td>TBD</td>
+                            </tr>
+                            <tr>
+                                <td>Week 6</td> <td>3/26/19 - 3/30/19</td><td>TBD</td>
+                            </tr>
+                            <tr>
+                                <td>Week 7</td> <td>4/2/19 - 4/6/19</td><td>TBD</td>
+                            </tr>
+                            <tr>
+                                <td>Competition Day</td> <td>4/7/19</td><td>TBD</td>
+                            </tr>
+                        </table>
+                    </h4>
+                </div>
+                <div class="side">
+                    <h4>
+                        Tips: TBD
+                    </h4>    
+                </div>
+                <div class="footer">
+                        <table id="footer_table">
+                            <tr>
+                                <td>
+                                    <p id="footer_term_use">
+                                        <b>Term Use: </b> Please use the website and its information however you like to help you
+                                        with the competition. I do ask, however, that you do not use the images or videos here
+                                        for any other project/product. Also, to make sure information is a 100% accurate and up to
+                                        date, users should always check the UC Berkeley BioEHSC official website page. 
+                                    </p>
+                                </td>
+                                <td>
+                                    <p id="footer_social_media">
+                                        <b>Social Media:</b> <br>
+                                        Coming Soon!
+                                    </p>
+                                </td>
+                                <td>
+                                    <p id="footer_mission_statement">
+                                        <b>Mission statement:</b> <br>
+                                        Coming Soon!
+                                    </p>
+                                </td>
+                                <td>
+                                    <p id="footer_visitation_stats">
+                                        <b>Visitation stats:</b> <br>
+                                        Coming soon!
+                                    </p>
+                                </td>
+                                <td>
+                                    <p id="footer_countdown">
+                                        <b>Countdown:</b> <br>
+                                        Feb. 19, 2019
+                                        <p id="demo"></p>
+                                        <script>
+                                        // Set the date we're counting down to
+                                        var countDownDate = new Date("Feb 19, 2019 15:37:25").getTime();
+        
+                                        // Update the count down every 1 second
+                                        var x = setInterval(function() {
+        
+                                            // Get todays date and time
+                                            var now = new Date().getTime();
+                                            
+                                            // Find the distance between now and the count down date
+                                            var distance = countDownDate - now;
+                                            
+                                            // Time calculations for days, hours, minutes and seconds
+                                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                                            
+                                            // Output the result in an element with id="demo"
+                                            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                                            + minutes + "m " + seconds + "s ";
+                                            
+                                            // If the count down is over, write some text 
+                                            if (distance < 0) {
+                                                clearInterval(x);
+                                                document.getElementById("demo").innerHTML = "EXPIRED";
+                                            }
+                                        }, 1000);
+                                        </script>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                
+            </body>
+        </html>
+    </DOCTYPE>

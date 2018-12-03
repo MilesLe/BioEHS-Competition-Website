@@ -1,0 +1,138 @@
+
+body{
+    background-image:url("images/Biology-DNA-PPT-Backgrounds.jpg");
+    min-width:1300px !important;
+}
+
+/* Main Parts of the Website */
+.header{
+    width:100%;
+    background-color: rgba(185, 247, 252,0.84);
+}
+
+.navigation{
+    width:100%;
+    background-color: rgba(148, 248, 173,0.6);
+    padding:5px;
+    background-image:url("images/stem_cells_banner_2.png");
+}
+.content{
+    width:74%;
+    float:left;
+    height: auto;
+    min-height: 100% !important;
+    background-color: rgba(185, 247, 252,0.8);
+    padding:5px;
+}
+.side{
+    position: sticky;
+    top: 0;
+
+    width:24%;
+    float:right;
+    height: autoß;
+    /* min-height: 100% !important; */
+    border-left: 2px dotted #999999;
+    background-color: rgba(231, 228, 228,0.8);
+    padding: 5px;
+}
+.footer{
+    background-color:#a95eb9;
+    width:100%;
+    /*height:100%;*/
+    bottom:0;
+    clear:left;
+    color:rgba(178,178,178,0.8);
+    text-align:left;
+    font-family:Arial;
+}
+
+/* Details for the Header */
+.header th{
+    font-size: 25px;
+}
+
+/* Details for the Navigation */
+.navigation a:link, a:visited {
+    background-color: #f5ee8a;
+    color:black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.navigation a:hover, a:active {
+    background-color:rgb(255, 255, 168);
+}
+.navigation a:active {
+    background-color: rgba(255, 217, 0, 0.507);
+}
+
+/* Details for the Content */
+.content > table, th, td {
+    border-collapse: collapse;
+    text-align:left;
+    font-size: 15px;
+    font-style: Arial;
+}
+#logo{
+    width:100px; height:80px;
+    background-color:white;
+}
+
+/* Details for the Footer */
+#footer_table{
+    width:100%;
+    /*height:100%;*/
+    border:dotted;
+    text-align:center;
+}
+#footer_table p{
+    font-style:thin;
+    font-family:Arial;
+    font-size:12;
+}
+#footer_term_use{
+    width:300px;
+}
+#footer_social_media{
+    width:100px;
+}
+#footer_mission_statement{
+    width:200px;
+}
+#footer_visitation_stats{
+    width:50px;
+}
+#footer_countdown{
+    width:50px;
+}
+
+/* ------------------- webpage specific -----------------------*/
+
+.literatureList img{
+    width:250px;
+    height:250px;
+
+    transition: width 0.25s, height 0.25s;
+}
+.literatureList img:hover{
+    opacity: 0.75;
+    width:270px;
+    height:270px;
+}
+#timeline{
+    width:100%;
+    height: 100%;
+}
+
+#video_examples video{
+    opacity:1.0;
+}
+#video_examples video:hover{
+    opacity:0.75;
+}
+
+.entries table{
+    width:100%;
+}
